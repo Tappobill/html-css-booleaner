@@ -12,5 +12,18 @@ padding: 5px;
 }
 
 div img{
-height: 20px; 
+height: 20px;
+}
+
+.prima{
+width: 80%;
+margin: auto;
+}
+
+.bool{
+    color: #4EA0FF;
+}
+
+.prima img{
+margin-top: 0px;
 }
