@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Booleaner</title>
     <!-- File css -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <!-- Prima immagine e Intestazione -->
     <header>
-        <div>
-            <img src="img/logo.png" alt="The Booleaner">
+        <div class="container">
+            <img src="img/logo.png" alt="The Booleaner" id="logo" >
         </div>
     </header>  
         <!-- Titolo e Immagini di Tim -->
-        <section class="prima">
+        <section class="container">
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <p>Scritto da <span class="bool">The Booleaner</span> </p>
-            <p>il 10/10/2020</p> <br>
+            <div>Scritto da <span class="bool">The Booleaner</span> </div>
+            <div class="data">il 10/10/2020</div> <br>
                 <img src="../img/tim-1.jpg" alt="Tim1">
                 <img src="../img/tim-2.jpg" alt="Tim2">
-                <p>1st Photo: John S. and Jamaes L. Knight Foundation, by Scott Henrichsen</p>
-                <p>2nd Photo: Wikimedia, by Paul Clarke</p>
+                <div>1st Photo: John S. and Jamaes L. Knight Foundation, by Scott Henrichsen</div>
+                <div>2nd Photo: Wikimedia, by Paul Clarke</div>
         </section>
         <!-- Sezione Principale -->
-        <main>
+        <main class="container">
             <p class="lorem"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sed assumenda excepturi quos, illo numquam molestias incidunt <mark> quisquam asperiores iusto dolorum repudiandae sit</mark> eum a consequatur modi dolore velit?</strong></p>
             <div class="lista">
                 <ul>
@@ -41,32 +41,36 @@
             <!-- Tabella -->
                 <table>
                     <thead>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
+                        <tr>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                            <th>Lorem ipsum dolor</th>
+                        </tr>
                     </thead>
-                    <tbody class="chiaro">
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th class="ultima">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem assumenda voluptate recusandae, animi quos voluptatum praesentium maxime ea doloremque deserunt. Distinctio, expedita possimus iure placeat fugit ab modi repellendus reiciendis.</th>                
-                    </tbody>
                     <tbody>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil culpa, alias reiciendis fugiat molestias saepe, at esse, repellat tempora impedit officiis magni corporis recusandae non doloremque ea commodi quibusdam?</th>
+                        <tr class="chiaro">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td class="ultima">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem assumenda voluptate recusandae, animi quos voluptatum praesentium maxime ea doloremque deserunt. Distinctio, expedita possimus iure placeat fugit ab modi repellendus reiciendis.</td>
+                        </tr>
+                        <tr>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem assumenda voluptate recusandae, animi quos voluptatum praesentium maxime ea doloremque deserunt. Distinctio, expedita possimus iure placeat fugit ab modi repellendus reiciendis.</td>
+                        </tr>  
+                        <tr class="chiaro">
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor</td>
+                            <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem assumenda voluptate recusandae, animi quos voluptatum praesentium maxime ea doloremque deserunt. Distinctio, expedita possimus iure placeat fugit ab modi repellendus reiciendis.</td>
+                        </tr>                  
                     </tbody>
-                    <tfoot class="chiaro">
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem ipsum dolor</th>
-                        <th>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem nihil culpa, alias reiciendis fugiat molestias saepe, at esse, repellat tempora impedit officiis magni corporis recusandae non doloremque ea commodi quibusdam?</th>
-                    </tfoot>
                 </table>
             </section>
         </main>
 
         <footer>
         <!-- Ultima Sezione e Immagini -->
-        <section class="finale">
+        <section class="container">
             <p><strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, similique hic quisquam, molestiae obcaecati quibusdam nam <mark>excepturi iste placeat eos ducimus saepe commodi</mark> quidem facilis, accusantium quaerat maiores illum ex.</strong></p>
             <h5>Potrebbero interessarti</h5>
             <h3 class="monitor">Lorem ipsum dolor</h3>
